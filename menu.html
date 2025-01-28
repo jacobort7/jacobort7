@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones en el Centro</title>
+    <style>
+        body {
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 15px;
+            text-align: center;
+        }
+        .button {
+            background-color: white;
+            color: red;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://www.example1.com" class="button">Botón 1</a>
+        <a href="https://www.example2.com" class="button">Botón 2</a>
+        <a href="https://www.example3.com" class="button">Botón 3</a>
+        <a href="https://www.example4.com" class="button">Botón 4</a>
+        <a href="https://www.example5.com" class="button">Botón 5</a>
+        <a href="https://www.example6.com" class="button">Botón 6</a>
+        <a href="https://www.example7.com" class="button">Botón 7</a>
+        <a href="https://www.example8.com" class="button">Botón 8</a>
+        <a href="https://www.example9.com" class="button">Botón 9</a>
+    </div>
+</body>
+</html>
